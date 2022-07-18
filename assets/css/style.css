@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: #FFEAD4;
+    overflow-x: hidden;
+}
+
+h1, h2{
+    font-family: 'Pacifico', cursive;
+    color: #BE253F;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    color: #484848;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.lett-footer{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    fill: #FFFFFF;
+    opacity: .5;
+    position: absolute;
+    left: 20%;
+    margin-top: 15%;
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.container-footer{
+    position: relative;
+}
+
+.container-cards{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-header{
+    width: 100vw;
+    position: relative;
+}
+
+.lett-header{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 10%;
+    fill: transparent;
+    animation: lett-preenchimento 0.5s ease-in-out forwards 3.5s;
+}
+
+.lett-header path{
+    stroke: #BE253F;
+    stroke-width: 2px;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: lett-preenchimento-path 5s ease-in-out forwards 1s;
+}
+
+#praia{
+    transform: translate(0, -1500px);
+    animation: start 1s ease-in-out forwards;
+}
+
+@keyframes start{
+    to{
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes lett-preenchimento {
+    to{
+        fill: #BE253F;
+    }
+}
+
+@keyframes lett-preenchimento-path{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
