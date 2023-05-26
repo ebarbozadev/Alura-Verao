@@ -6,8 +6,7 @@
         <a href="#sobre">Sobre</a> •
         <a href="#tabela-de-conteudo">Tabela de Conteúdo</a> •
         <a href="#tecnologias">Tecnologias</a> •
-        <a href="#certificado">Certificado</a> •
-        <a href="#autor">Autor</a>
+        <a href="#certificado">Certificado</a>
     </p>
 </main>
 
@@ -54,20 +53,13 @@
 <section id="tecnologias">
     <h2 style="font-size: 1.25rem;">Tecnologias</h2>
     <ul>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a>;</li>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>;</li>
-        <li><a href="https://www.javascript.com/">JavaScript</a>.</li>
+        <li>HTML5;</li>
+        <li>CSS3;</li>
+        <li>JavaScript.</li>
     </ul>
 </section>
 
 <section id="certificado">
     <h2 style="font-size: 1.25rem;">Certificado</h2>
     <p style="text-align: justify;">Veja o certificado que obtive no curso! Ou veja online <a href="https://cursos.alura.com.br/certificate/d8fc753c-49f8-44cf-b418-4757c16f2f5d">aqui</a>.</p>
-    <img src="Certificado de Conclusão Vetores e Animação com SVG trabalhando com CSS e JavaScript.jpg">
-</section>
-
-<section id="autor">
-    <h2 style="font-size: 1.25rem;">Autor</h2>
-    <img src="foto.jpg" width="170">
-    <p style="text-align: justify;"><i>Emanuel Marcos (E.Barboza)<i></p>
 </section>
